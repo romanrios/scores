@@ -1,0 +1,66 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+body {
+    background-image: url("bg_molino.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+p {
+    color: #fff3e3;
+    font-weight: normal;
+}
+
+
+
+th {
+    padding: 5px 15px;
+    background-color: #f43679;
+    color: #ffffff;
+}
+
+td {
+    padding: 5px 15px;
+    background-color: #fff3e3;
+    color: #4D4D4D;
+
+}
+
+.left {
+    text-align: right;
+    border-radius: 10px 0 0 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    border-radius: 0 10px 10px 0;
+
+}
