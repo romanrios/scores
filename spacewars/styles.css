@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Press Start 2P', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -16,39 +17,39 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    margin: 20px 0;
+    gap: 30px;
+    margin: 30px 0;
+
 }
 
 
 
 body {
-    background-image: url("bg_molino.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("background.png");
+    /* background-size: cover; */
+    background-repeat: repeat;
     background-attachment: fixed;
+}
+
+h1 {
+    color: #ffd080;
 }
 
 
 p {
     color: #fff3e3;
     font-weight: normal;
-    text-align: center;
 }
-
 
 
 th {
     padding: 5px 15px;
-    background-color: #f43679;
-    color: #ffffff;
+    background-color: #0bffe6;
+    color: #120826;
 }
 
 td {
     padding: 5px 15px;
-    background-color: #fff3e3;
-    color: #4D4D4D;
-
 }
 
 .left {
@@ -66,17 +67,29 @@ td {
 
 }
 
-
 @media only screen and (max-width: 600px) {
 
     img {
-        max-width: 80%;
+        width: 70%;
+        height: auto;
     }
 
-    table {
-        max-width: 95vw;
+    body {
+        font-size: 70%;
+        background-size: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+
+    img {
+        width: 50%;
+        height: auto;
     }
 
-
-
+    body {
+        font-size: 50%;
+        background-size: 70%;
+    }
 }
